@@ -233,3 +233,41 @@ main {
     color: #757575;
     padding-bottom: 30px;
 }
+
+.contact {
+    display: flex;
+    background-color: #FFF8F3;
+    gap: 117px;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact .section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px, 30px;
+    text-align: left;
+}
+.contact a{
+    text-decoration: none;
+    text-align: left;
+    padding-left: 24px;
+    text-align: left;
+}
+input{
+    height: 64px;
+}
